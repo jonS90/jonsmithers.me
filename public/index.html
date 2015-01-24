@@ -1,0 +1,137 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head>
+<title>Jon's Website</title>
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="css/main.css" type="text/css" />
+</head>
+<script type="text/javascript">
+    document.write([
+        "\<script src='",
+        ("https:" == document.location.protocol) ? "https://" : "http://",
+        "ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js' type='text/javascript'>\<\/script>" 
+    ].join(''));
+</script>
+<script src="//squaresend.com/squaresend.js"></script>
+
+<body>
+<div id="divbg"><img src="css/bg_blueSquares.png" width="100%" height="100%" style="opacity:0;" onload="$(this).fadeTo(0,0).delay(500).fadeTo(2000,1)">
+</div>
+<div id="maincontent">
+<br>
+  <h1 class="name" style="opacity:1;">Jonathan Smithers</h1>
+<br>
+
+<div class="text rounded-corners" >
+  <p>
+    ...is finishing his last semester studying computer science. He enjoys programming challenges and is passionate about learning new and useful things, being self-taught in Meteor, Ruby, and the Linux operating system.
+  </p>
+  <center><a href="mailto:c5epszg">Contact</a></center> <!-- note that Squaresend does not work on local files -->
+</div>
+<div class="contentbox rounded-corners">
+  <center>
+    <p zstyle="visibility:hidden">Learn more about me:</p>
+    <a zhref="" onclick="toggleBox('#linkedinbox');">
+      <img src="icons/linkedin-48x48.png" style="opacity:0; cursor:pointer;" onload="$(this).fadeTo(1000,1);">
+    </a>
+    <a zhref="" onclick="toggleBox('#soundcloudbox'); return false;">
+      <img src="icons/soundcloud-48x48.png" style="opacity:0; cursor:pointer;" onload="$(this).fadeTo(1000,1);">
+    </a>
+    <a zhref="" onclick="toggleBox('#goodreadsbox'); return false;">
+      <img src="icons/goodreads-48x48.png" style="opacity:0; cursor:pointer;" onload="$(this).fadeTo(1000,1);">
+    </a>
+  </center>
+</div>
+<div class="contentbox rounded-corners" id="linkedinbox" zstyle="visibility:hidden"> <center>
+  <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+  <script type="IN/MemberProfile" data-id="http://www.linkedin.com/pub/jonathan-smithers/32/900/61" data-format="inline" data-related="false"></script> </center>
+</div>
+<div class="contentbox rounded-corners" id="soundcloudbox">
+  <center><p style="font-size:1.5em;font-weight:bold;color:#E6E6E6;">Sounds I've made</p><iframe height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F3480143"></iframe></center>
+</div>
+
+
+<div class="contentbox rounded-corners" id="goodreadsbox">
+            <center>
+               <style type="text/css" media="screen">
+                  .gr_grid_container { /* customize grid container div here. eg: width: 500px; */ } 
+                  .gr_grid_book_container { /* customize book cover container div here */ 
+                    float: left; 
+                    width: 39px; 
+                    height: 60px; 
+                    padding: 0px 0px;
+                    overflow: hidden; 
+                  }
+                </style>
+                <div id="gr_grid_widget_1359346185">
+                  <!-- Show static html as a placeholder in case js is not enabled - javascript include will override this if things work -->
+                      <h2>
+                <a href="http://www.goodreads.com/review/list/11017332-jon-smithers?shelf=read&utm_medium=api&utm_source=grid_widget" style="text-decoration: none;">Books I've read</a>
+              </h2>
+            <div class="gr_grid_container">
+              <div class="gr_grid_book_container"><a href="http://www.goodreads.com/book/show/1573389.The_Abduction" title="The Abduction"><img alt="The Abduction" border="0" src="http://d.gr-assets.com/books/1185367749s/1573389.jpg" /></a></div>
+              <div class="gr_grid_book_container"><a href="http://www.goodreads.com/book/show/32829.Journey_to_the_Center_of_the_Earth" title="Journey to the Center of the Earth"><img alt="Journey to the Center of the Earth" border="0" src="http://d.gr-assets.com/books/1320394940s/32829.jpg" /></a></div>
+              <div class="gr_grid_book_container"><a href="http://www.goodreads.com/book/show/7613.Animal_Farm" title="Animal Farm"><img alt="Animal Farm" border="0" src="http://d.gr-assets.com/books/1327872845s/7613.jpg" /></a></div>
+              <div class="gr_grid_book_container"><a href="http://www.goodreads.com/book/show/3636.The_Giver" title="The Giver (The Giver, #1)"><img alt="The Giver" border="0" src="http://d.gr-assets.com/books/1342493368s/3636.jpg" /></a></div>
+              <div class="gr_grid_book_container"><a href="http://www.goodreads.com/book/show/7624.Lord_of_the_Flies" title="Lord of the Flies"><img alt="Lord of the Flies" border="0" src="http://d.gr-assets.com/books/1327869409s/7624.jpg" /></a></div>
+              <div class="gr_grid_book_container"><a href="http://www.goodreads.com/book/show/17267.The_Great_Divorce" title="The Great Divorce"><img alt="The Great Divorce" border="0" src="http://d.gr-assets.com/books/1166805741s/17267.jpg" /></a></div>
+              <div class="gr_grid_book_container"><a href="http://www.goodreads.com/book/show/43049.The_Sea_Wolf" title="The Sea Wolf"><img alt="The Sea Wolf" border="0" src="http://d.gr-assets.com/books/1348168536s/43049.jpg" /></a></div>
+              <div class="gr_grid_book_container"><a href="http://www.goodreads.com/book/show/4214.Life_of_Pi" title="Life of Pi"><img alt="Life of Pi" border="0" src="http://d.gr-assets.com/books/1320562005s/4214.jpg" /></a></div>
+              <div class="gr_grid_book_container"><a href="http://www.goodreads.com/book/show/4671.The_Great_Gatsby" title="The Great Gatsby"><img alt="The Great Gatsby" border="0" src="http://d.gr-assets.com/books/1349925337s/4671.jpg" /></a></div>
+              <div class="gr_grid_book_container"><a href="http://www.goodreads.com/book/show/7214.Blue_Like_Jazz" title="Blue Like Jazz: Nonreligious Thoughts on Christian Spirituality"><img alt="Blue Like Jazz: Nonreligious Thoughts on Christian Spirituality" border="0" src="http://d.gr-assets.com/books/1348043536s/7214.jpg" /></a></div>
+              <div class="gr_grid_book_container"><a href="http://www.goodreads.com/book/show/1858013.The_Reason_for_God" title="The Reason for God: Belief in an Age of Skepticism"><img alt="The Reason for God: Belief in an Age of Skepticism" border="0" src="http://d.gr-assets.com/books/1347354160s/1858013.jpg" /></a></div>
+              <div class="gr_grid_book_container"><a href="http://www.goodreads.com/book/show/18386.The_Death_of_Ivan_Ilych" title="The Death of Ivan Ilych"><img alt="The Death of Ivan Ilych" border="0" src="http://d.gr-assets.com/books/1336967150s/18386.jpg" /></a></div>
+              <div class="gr_grid_book_container"><a href="http://www.goodreads.com/book/show/6507760-dark-origins" title="Dark Origins (Level 26, #1)"><img alt="Dark Origins" border="0" src="http://d.gr-assets.com/books/1347504356s/6507760.jpg" /></a></div>
+              <div class="gr_grid_book_container"><a href="http://www.goodreads.com/book/show/43035.White_Fang" title="White Fang"><img alt="White Fang" border="0" src="http://d.gr-assets.com/books/1348472847s/43035.jpg" /></a></div>
+              <div class="gr_grid_book_container"><a href="http://www.goodreads.com/book/show/123291.Telling_Secrets" title="Telling Secrets"><img alt="Telling Secrets" border="0" src="http://d.gr-assets.com/books/1349010507s/123291.jpg" /></a></div>
+              <div class="gr_grid_book_container"><a href="http://www.goodreads.com/book/show/5470.1984" title="1984"><img alt="1984" border="0" src="http://d.gr-assets.com/books/1348990566s/5470.jpg" /></a></div>
+              <div class="gr_grid_book_container"><a href="http://www.goodreads.com/book/show/11138.Mere_Christianity" title="Mere Christianity"><img alt="Mere Christianity" border="0" src="http://d.gr-assets.com/books/1327957263s/11138.jpg" /></a></div>
+              <div class="gr_grid_book_container"><a href="http://www.goodreads.com/book/show/2767052-the-hunger-games" title="The Hunger Games (The Hunger Games #1)"><img alt="The Hunger Games" border="0" src="http://d.gr-assets.com/books/1358275334s/2767052.jpg" /></a></div>
+              <div class="gr_grid_book_container"><a href="http://www.goodreads.com/book/show/123288.The_Sacred_Journey" title="The Sacred Journey: A Memoir of Early Days"><img alt="The Sacred Journey: A Memoir of Early Days" border="0" src="http://d.gr-assets.com/books/1347625717s/123288.jpg" /></a></div>
+              <div class="gr_grid_book_container"><a href="http://www.goodreads.com/book/show/8664353-unbroken" title="Unbroken: A World War II Story of Survival, Resilience, and Redemption"><img alt="Unbroken: A World War II Story of Survival, Resilience, and Redemption" border="0" src="http://d.gr-assets.com/books/1327861115s/8664353.jpg" /></a></div>
+              <br style="clear: both"/><br/><a href="http://www.goodreads.com/user/show/11017332-jon-smithers" class="gr_grid_branding" style="font-size: .9em; color: #382110; text-decoration: none; float: right; clear: both">Jon Smithers's favorite books »</a>
+            <noscript><br/>Share <a href="http://www.goodreads.com">book reviews</a> and ratings with Jon, and even join a <a href="http://www.goodreads.com/group/">book club</a> on Goodreads.</noscript>
+            </div>
+
+                </div>
+                <script src="http://www.goodreads.com/review/grid_widget/11017332.Books%20I've%20read?cover_size=small&hide_link=&hide_title=&num_books=40&order=a&shelf=read&sort=date_read&widget_id=1359346185" type="text/javascript" charset="utf-8"></script>
+
+
+
+</div>
+
+
+</body>
+<script type="text/javascript">
+  // $('h1').fadeTo(10, 1);
+  $('#linkedinbox').hide();
+  $('#soundcloudbox').hide();
+  $('#goodreadsbox').hide();
+
+
+
+  function toggleSoundCloud() {
+    $('#soundcloudbox').toggle(500);
+    scrollToID("#soundcloudbox")
+  }
+  function toggleBox(id) {
+    box = $(id)
+    t = box.is(":hidden");
+    //I must record this condition HERE rather than AFTER calling toggle, the condition immediately after toggle() is inconsistent
+    box.toggle(600);
+    if (t) {
+      scrollToID(id);
+    }
+
+    return false;
+  }
+  function scrollToID(id) {
+    //alert(id)
+    $('body,html').delay(500);
+    $('body,html').animate({
+      scrollTop: $(id).offset().top,
+      // scrollLeft: $(id).offset().left+50
+    }, 1000); 
+    // alert(id)
+  }
+
+</script>

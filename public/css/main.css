@@ -1,0 +1,152 @@
+/*This is a comment*/
+
+body
+	{
+	background-color:#121212;
+	/*background-image:url('http://dl.dropbox.com/u/1780553/jobs/css/bg_blueSquares.png');*/
+	background-repeat:no-repeat;
+	background-position:center;
+	}
+div
+	{
+	
+	}
+div.contentbox 
+	{
+	background-color:#121212;
+	/*border-style:solid;*/
+	color:white;
+	max-width:400px;
+	margin:auto;
+	padding:20px;
+	margin-bottom: 20px
+	}
+div.text
+	{
+	background-color:#121212;
+	/*border-style:solid;*/
+	color:white;
+	max-width:400px;
+	margin:auto;
+	padding:20px;
+	margin-bottom: 20px
+	}
+#divbg
+	{
+	background-color:#121212;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	position: fixed;
+	z-index: 0; <----Notice!
+	border-style:solid;
+	}
+#maincontent
+	{
+	z-index:1;
+	position:absolute; <----Notice!
+	color:white;
+	right: 0px;
+	left:0px;
+	top:0px;
+	border-style:none;
+	}
+
+
+h1 	{
+	color:#B3B3B3; 
+	font-size:26px;
+	text-align:center;
+	font-family:"Arial Black";
+	font-variant:small-caps;
+	}
+h1.name
+	{
+	font-size:48px;
+	margin-top: 2.2em;
+	margin-bottom: 1em;
+	}
+h1.pretty
+ 	{
+	color:white; 
+	font-size:26px;
+	text-align:center;
+	font-family:"Mistral";
+	font-weight:100;
+	font-variant:normal;
+	}
+p
+	{
+	color:#B3B3B3;
+	text-align:justified9:55 PM 7/7/2010;
+	font-family:"Calibri";
+	text-indent: 0em;
+	margin-top: 0.83em;
+	}
+
+
+p.independent
+	{
+	color:white;
+	text-align:center;
+	/*background-color:#e0ffff;*/
+	max-width:50%;
+	position:relative;
+	left:25%;
+	}
+
+ul.nav
+	{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	/*http://www.w3schools.com/css/css_navbar.asp*/
+	}
+
+.fixed 
+	{
+	top: 0;
+	right: 100;
+	position: fixed;
+	text-align: center
+	z-index: 99;
+	}
+
+/*standard gray #B3B3B3*/
+/*ligher gray #E6E6E6 */
+/*darker gray #B0B0B0 */
+
+.rounded-corners {
+     -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    border-radius: 6px;
+}
+
+	
+ul {list-style-type: square;}
+a:link {color:#E6E6E6;}      /* a lighter gray grey like paragraph (p)*/
+a:visited {color:#E6E6E6;} 
+a:hover {color:white;}  /* mouse over link */
+a:active {color:#010101;}
+
+#anID
+	{
+	text-align:center;
+	color:green;
+	}
+
+.aClass
+	{text-align:center;}
+
+p.aClass {color:pink} /*only "P"-elements in class "aClass" will be affected */
+
+/*img 
+	{
+	box-shadow: -50px -50px 20px #fff;
+	}
+*/
+/*.ex1 img{ border: 5px solid #ccc; float: left; margin: 15px; -webkit-transition: margin 0.5s ease-out; -moz-transition: margin 0.5s ease-out; -o-transition: margin 0.5s ease-out; } .ex1 img:hover { margin-top: 2px; }*/
+
+
